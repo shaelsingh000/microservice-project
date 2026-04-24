@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-platform
+description: Microservices platform with Kafka
+version: 1.0.0

@@ -1,0 +1,15 @@
+backend:
+  image: shaelsingh000/backend
+  tag: v2
+  replicas: 2
+
+worker:
+  image: shaelsingh000/worker
+  tag: v1
+
+frontend:
+  image: shaelsingh000/frontend
+  tag: v1
+
+kafka:
+  broker: kafka:9092
