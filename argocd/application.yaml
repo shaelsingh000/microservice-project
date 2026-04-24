@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/shaelsingh000/microservices-project
+    repoURL: https://github.com/shaelsingh000/microservices-project.git
     targetRevision: HEAD
     path: helm/my-platform
     helm:
